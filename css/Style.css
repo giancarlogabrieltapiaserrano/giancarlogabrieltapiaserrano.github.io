@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@font-face
+{
+    font-family: Giany;
+    src: url("../Fonts/VIRUST.ttf");
+}
+@font-face
+{
+    font-family:Gabo;
+    src: url("../Fonts/Signatra.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header,nav, main, footer
+{
+    background-color:#452f4a;
+    color:#ffffff;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+header{
+    height: auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 891;
+    font-style:normal;
+    letter-spacing: 5px;
+}
+
+nav
+{
+    background-color:#704879;
+    text-align: center;
+}
+
+main nav{
+    background-color: #452f4a;
+    text-align: center;
+    padding: 8px;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    background-color:#A456A6;
+    width:130px;
+    padding: 12px;
+    text-align: center; 
+    border-radius: 50px;
+    /* margin top:10px;
+    margin-bottom: 5px; 
+    margin-left: 5px;
+    margin-right: 5px; */
+    margin: 5px;
+    
+}
+
+nav ul li a:link, nav ul li a:visited 
+{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+nav ul li:hover
+{
+    background-color: #452f4a;
+}
+
+section 
+{
+    background-color: #A456A6		;
+    margin-top:30px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    overflow-x:auto;
+    width: 69%;
+    border-radius:20px;
+}
+
+h2
+{
+    margin-bottom: 15px;
+    color: #ffd5d5;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: #ffd5d5;
+    background-color: #452f4a;	
+}
+
+footer
+{
+    background-color: #A456A6;
+    font-size: 20px;
+    text-align: center;
+    font-family: Giany;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+
+table
+{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    border-spacing: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    color:#452f4a;
+}
+
+#tabla_1{ 
+ background-color: #ffffff; 
+ border: 3px solid #A456A6; 
+ border-spacing: 10px; 
+ border-collapse: collapse; 
+ margin-left: auto; 
+ margin-right: auto; 
+ padding: 10px; 
+} 
+#tabla_1 tr{ 
+ font-size: 15px;
+ color: #452f4a; 
+} 
+#tabla_1 th{ 
+ font-size: 15px; 
+ background-color: #c981cb; 
+ color: #ffffff; 
+} 
+#tabla_1 th, #tabla_1 td { 
+ border: 3px solid #452f4a; 
+ padding: 10px; 
+}
+
+
+
+#tablas_cebras{ 
+ width:100%; 
+ margin-left: auto; 
+ margin-right: auto; 
+ margin-top: 30px; 
+ border-collapse: collapse; 
+}
+
+#tablas_cebras tr{ 
+ font-size: 15px;
+ color: #452f4a; 
+} 
+
+#tablas_cebras th{ 
+    background-color: #704879;
+    color: #ffd5d5; 
+} 
+#tablas_cebras td, #tablas_cebras th{ 
+ padding: 10px; 
+ border-width: 5px; 
+ border-color: #452f4a; 
+ border-style: solid; 
+ 
+} 
+#tablas_cebras tbody tr:nth-child(even){ 
+ background-color: #d194d2;
+} 
+#tablas_cebras tbody tr:nth-child(odd){ 
+ background-color: #ffffff 
+} 
+
+
+
+#tablas_hover{ 
+ width: 100%; 
+ background-color: #ffd5d5; 
+ color: #452f4a; 
+ border-collapse: collapse; 
+ margin-left: auto; 
+ margin-right: auto; 
+ margin-top: 20px; 
+} 
+#tablas_hover th{ 
+ background-color: #452f4a; 
+ color: #ffffff 
+} 
+#tablas_hover td, #tablas_hover th{ 
+ border-width: 3px; 
+ border-color: #452f4a; 
+ border-style: solid; 
+ padding: 10px; 
+} 
+#tablas_hover tr:hover{ 
+ background-color: #704879 ; 
+ color: #ffd5d5; 
+}
+
+#img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+main section
+{
+    margin-left: auto;
+    margin-right: auto
+}
+
+#img_gif{
+    width:50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.img-borde-redondo
+{
+    border-radius: 50%
+}
+
+P{
+    margin-top: 20px;
+}
+
+.img_flotante
+{
+    width: 31%;
+    float: left;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.alineacion
+{
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.alineacion_1
+{
+    width: 35%;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+
+#fondo_box {
+    background-image: url("../Imagnes/JPG/flor%20morada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+}
+
+.img_filter
+{
+    text-align: center;
+    
+}
+.img_filter p
+{
+    text-align: justify;
+}
+
+.img_filter h2
+{
+    text-align: justify;
+}
+
+.img_filter img
+{
+    width: 20%;
+    margin: 15px;
+}
+
+.section-filtros 
+{
+    color:#452f4a;
+    text-align: center;
+}
+
+.section-filtros img
+{
+    width: 25px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form
+{
+    width: 80%;
+    height: auto;
+    padding: 40px;
+    background-color: #452f4a;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label
+{
+    color: #ffd5d5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+textarea, select
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #6D4373;
+    color: #FEFAE0;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+textarea
+{
+    padding: 20px;
+    border: 2px solid #A456A6;
+}
+
+input 
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #A456A6;
+    color: #FEFAE0;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+input[type=sumit]
+{
+    widows: 34%;
+    padding: 16px;
+    background-color: #A456A6;
+    font-weight: bold;
+    color: #452f4a;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#mio input[type=sumit]
+{
+    widows: 34%;
+    padding: 16px;
+    background-color: #ffd5d5;
+    font-weight: bold;
+    color: #A456A6;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+input[type=reset]
+{
+    widows: 34%;
+    padding: 16px;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #452f4a;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus
+{
+    background-color: #ffffff;
+    color: #452f4a;
+}
+
+input[type=radio], input[type=checkbox]
+{
+    width: 15%;
+}
+
+#logo
+{
+    height: 70px;
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom:0;
+    margin-left: 0;
+    display: flex;
+    overflow: auto;
+}
+
+#logo-1
+{
+    width: 58px;
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    display: flex;
+    overflow: auto;
+}
+
+#logo2
+{
+    height: 60px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom:0;
+    margin-left: 10px;
+    display: inline-block;
+    overflow: auto;
+    text-align: right;
+}
+
+#facebook, #facebook-1, #facebook-2
+{
+    width: 50px;
+    display: inline-block;
+    overflow: auto;
+    text-align: center;
+    margin-top: 15px;
+}
